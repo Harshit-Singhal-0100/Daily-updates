@@ -1,0 +1,323 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Container */
+.container {
+    width: 80%;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Styling */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #004c8c;
+    color: white;
+    border-radius: 8px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+/* Syllabus Section */
+.syllabus {
+    margin-top: 30px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.syllabus h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.syllabus ul {
+    list-style: none;
+}
+
+.syllabus li {
+    font-size: 1.2rem;
+    margin: 8px 0;
+}
+
+/* Units */
+.units {
+    margin-top: 20px;
+}
+
+.unit {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    display: flex;
+    align-items: center;
+}
+
+.unit i {
+    font-size: 2rem;
+    color: #004c8c;
+    margin-right: 15px;
+}
+
+.unit:hover {
+    background-color: #e0e0e0;
+    transform: scale(1.03);
+}
+
+h2 {
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+}
+
+.subtopics {
+    display: none;
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+.subtopics h3 {
+    font-size: 1.3rem;
+    margin-top: 10px;
+}
+
+.subtopics p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #004c8c;
+    color: white;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+footer p {
+    font-size: 1rem;
+}
+
+/* Transition Effect for Unit Toggle */
+.show {
+    display: block;
+}
+/* Basic resets */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and general styling */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styling */
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #4CAF50;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+    color: #777;
+}
+
+/* Section styling */
+section.content {
+    padding: 20px;
+}
+
+/* Article styling */
+article {
+    margin-bottom: 30px;
+}
+
+article h2 {
+    font-size: 2em;
+    color: #2c3e50;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #4CAF50;
+    padding-bottom: 10px;
+}
+
+article p {
+    font-size: 1.1em;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+article ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+article ul li {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    color: #555;
+    padding-left: 15px;
+    position: relative;
+}
+
+article ul li::before {
+    content: '•';
+    position: absolute;
+    left: 0;
+    color: #4CAF50;
+    font-size: 1.5em;
+    top: 0;
+}
+
+/* Nested list inside rule of law */
+article ul ul {
+    padding-left: 40px;
+}
+
+article ul ul li {
+    font-size: 1em;
+    color: #777;
+}
+
+/* Styling for individual rights emphasis */
+strong {
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+/* Advanced Styling for Additional Principles */
+#additional-principles ul {
+    padding-left: 20px;
+}
+
+#additional-principles ul li {
+    font-size: 1.1em;
+    margin-bottom: 15px;
+}
+
+#additional-principles ul li strong {
+    color: #2c3e50;
+}
+
+/* Key Acts section styling */
+#historical-perspective h3 {
+    font-size: 1.5em;
+    color: #2c3e50;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#historical-perspective ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+#historical-perspective ul li {
+    font-size: 1.1em;
+    color: #555;
+    margin-bottom: 8px;
+}
+
+#historical-perspective ul li::before {
+    content: '•';
+    position: absolute;
+    left: 0;
+    color: #4CAF50;
+    font-size: 1.5em;
+    top: 0;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    font-size: 1em;
+    margin-top: 40px;
+    color: #777;
+}
+
+footer p {
+    margin: 10px 0;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    .container {
+        padding: 15px;
+    }
+
+    header h1 {
+        font-size: 2em;
+    }
+
+    header p {
+        font-size: 1em;
+    }
+
+    article h2 {
+        font-size: 1.6em;
+    }
+
+    article p, article ul li {
+        font-size: 1em;
+    }
+
+    article ul li::before {
+        font-size: 1.2em;
+    }
+
+    footer p {
+        font-size: 0.9em;
+    }
+}
